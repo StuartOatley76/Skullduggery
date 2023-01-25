@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6564978417656836718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6564978417656836716}
+  - component: {fileID: 6564978417656836717}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6564978417656836716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6564978417656836718}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6564978417656836717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6564978417656836718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43cf47f962279254c9c7baf1fabe3963, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSourcePoolSize: 30
+  audioSourcePrefab: {fileID: 3188448617707716146, guid: 37d04b597a4c2274fa7f97e42a422f4b, type: 3}
+  baseMusicFile:
+    audioClip: {fileID: 8300000, guid: bd394b4e6ecf00c45b2df78353bd82a8, type: 3}
+    volume: 1
+  damagePlayerFiles:
+  - audioClip: {fileID: 8300000, guid: 164875fee3157e0428574ceadbb2194b, type: 3}
+    volume: 0.5
+  - audioClip: {fileID: 8300000, guid: f04e4a4a3f421b5488a9bd7e3b17645d, type: 3}
+    volume: 0.5
+  - audioClip: {fileID: 8300000, guid: a7530a39d6df7b445bba325c8d2ac211, type: 3}
+    volume: 0.5
+  - audioClip: {fileID: 8300000, guid: 7303f4668b2247b438b53ca2c68a259a, type: 3}
+    volume: 0.5
+  damageEnemyFiles:
+  - audioClip: {fileID: 8300000, guid: 164875fee3157e0428574ceadbb2194b, type: 3}
+    volume: 0.373
+  - audioClip: {fileID: 8300000, guid: f04e4a4a3f421b5488a9bd7e3b17645d, type: 3}
+    volume: 0.369
+  - audioClip: {fileID: 8300000, guid: a7530a39d6df7b445bba325c8d2ac211, type: 3}
+    volume: 0.381
+  - audioClip: {fileID: 8300000, guid: 7303f4668b2247b438b53ca2c68a259a, type: 3}
+    volume: 0.378
+  shieldHitFiles:
+  - audioClip: {fileID: 8300000, guid: 8b490bbb5bef6474a98b3bf614680b69, type: 3}
+    volume: 0.365
+  - audioClip: {fileID: 8300000, guid: bd6af1da14577674fa3c20f040c5ace6, type: 3}
+    volume: 0.317
+  - audioClip: {fileID: 8300000, guid: b31f534eef89ec049af9e0afb9a57f36, type: 3}
+    volume: 0.35
+  - audioClip: {fileID: 8300000, guid: 621555bc31796284e8d03ec95122b36b, type: 3}
+    volume: 0.298
+  asteroidCrackFiles:
+  - audioClip: {fileID: 8300000, guid: 1dd5d1091360b29458afc3d5d48f1048, type: 3}
+    volume: 0.5
+  - audioClip: {fileID: 8300000, guid: 852d9fca068c4e547aba8bbf564c31bc, type: 3}
+    volume: 0.5
+  spaceInvaderShootFiles:
+  - audioClip: {fileID: 8300000, guid: e2a3dc4a9efa4f44e8abc3c09ec12d10, type: 3}
+    volume: 0.108
+  - audioClip: {fileID: 8300000, guid: 38da0359c3f74914583e6f9ebb811327, type: 3}
+    volume: 0.07
+  - audioClip: {fileID: 8300000, guid: 3fab36c21ad801c47acabc5002f31800, type: 3}
+    volume: 0.103
+  pongShootFiles:
+  - audioClip: {fileID: 8300000, guid: 326ce0c72fa62f44a97db57b80454ea4, type: 3}
+    volume: 0.184
+  carZoomFiles:
+  - audioClip: {fileID: 8300000, guid: 6c694911f6c8d06419878cc93338cd4b, type: 3}
+    volume: 0.075
+  - audioClip: {fileID: 8300000, guid: 966f4598ca9b1c442a487045cffb04ef, type: 3}
+    volume: 0.104
+  - audioClip: {fileID: 8300000, guid: 7f6b7097de0adf641a1b0826f19a9d3d, type: 3}
+    volume: 0.111
+  - audioClip: {fileID: 8300000, guid: 08b0db1fbded9a94ea84b0840095934f, type: 3}
+    volume: 0.111
+  puddleSplashFiles:
+  - audioClip: {fileID: 8300000, guid: 45fe185ba81ff7a4abedc26257067122, type: 3}
+    volume: 0.431
+  enemyKilledFiles:
+  - audioClip: {fileID: 8300000, guid: 1ab7fdf9007e6b143a79bb94d0f27012, type: 3}
+    volume: 0.367
+  - audioClip: {fileID: 8300000, guid: 3e9651f26f16e1147b221ab8cb801fc4, type: 3}
+    volume: 0.367
+  - audioClip: {fileID: 8300000, guid: dfa700e9cb38fc241b667908099fc9d5, type: 3}
+    volume: 0.367
+  bossDeathFiles:
+  - audioClip: {fileID: 8300000, guid: 4a11616b876cbac4f96387c75a8a7a15, type: 3}
+    volume: 0.684
+  bossShootFiles:
+  - audioClip: {fileID: 8300000, guid: 292cd92ecabd1dc4ba88b94a0217d03d, type: 3}
+    volume: 0.366
+  - audioClip: {fileID: 8300000, guid: f9a149603dd466a4786e741179f68426, type: 3}
+    volume: 0.371
+  - audioClip: {fileID: 8300000, guid: 1b236ace7a9ceb94192d767a0c1b26b6, type: 3}
+    volume: 0.366
+  bossSlamFiles:
+  - audioClip: {fileID: 8300000, guid: 15bac0f1f3b15cf47b2cc97f09672513, type: 3}
+    volume: 0.517
+  activeTrapFiles:
+  - audioClip: {fileID: 8300000, guid: 478cea12e7c1d83479d7bdaa3c83cf13, type: 3}
+    volume: 0.407
+  playerKilledFiles:
+  - audioClip: {fileID: 8300000, guid: 28c02fc3999ab7749b1f5ad507292486, type: 3}
+    volume: 1
+  playerAttackFiles:
+  - audioClip: {fileID: 8300000, guid: e6725034c7a75894e89c5f254f713755, type: 3}
+    volume: 0.5
+  - audioClip: {fileID: 8300000, guid: 15e27d620b1eb5a49b20d47a5a64b455, type: 3}
+    volume: 0.5
+  - audioClip: {fileID: 8300000, guid: 3db6695b481134f4aa260d93b953a6d4, type: 3}
+    volume: 0.5
+  playerDashFiles:
+  - audioClip: {fileID: 8300000, guid: 31a517972d7e9e74088cf0af2f3b61c9, type: 3}
+    volume: 0.322
+  - audioClip: {fileID: 8300000, guid: db9bb0df8e07766498fadf7a396f24e1, type: 3}
+    volume: 0.317
+  - audioClip: {fileID: 8300000, guid: d8d3b920167fad74d92ca779d82397ed, type: 3}
+    volume: 0.317
+  plushHitFiles:
+  - audioClip: {fileID: 8300000, guid: b82fca456a5eca943908febc004e9c7d, type: 3}
+    volume: 0.336
+  - audioClip: {fileID: 8300000, guid: 486083922bf5aef4cb70c6f5fefaa82c, type: 3}
+    volume: 0.322
+  - audioClip: {fileID: 8300000, guid: f73d9de8c7a80d4458208786d7196f41, type: 3}
+    volume: 0.327
+  - audioClip: {fileID: 8300000, guid: 526a55f700ea4bd4386770cfb796fe6d, type: 3}
+    volume: 0.317
+  - audioClip: {fileID: 8300000, guid: fe9874cc2aa69414c93827e486d5d30e, type: 3}
+    volume: 0.312
+  plushDestroyedFiles:
+  - audioClip: {fileID: 8300000, guid: 10326a969d9231f4c85b8857a79db71f, type: 3}
+    volume: 0.331
+  boxHitFiles:
+  - audioClip: {fileID: 8300000, guid: 8d2020d54af699d4ea81fc3b8897ba67, type: 3}
+    volume: 0.303
+  - audioClip: {fileID: 8300000, guid: 6e91aba8e452c8948b1afc8113e5175e, type: 3}
+    volume: 0.322
+  - audioClip: {fileID: 8300000, guid: 27e0af67b48f6c04eb3ba0e5b590c3ff, type: 3}
+    volume: 0.336
+  - audioClip: {fileID: 8300000, guid: ea401e0debc8fe84eb03892b4c58e7e1, type: 3}
+    volume: 0.308
+  boxDestroyedFiles:
+  - audioClip: {fileID: 8300000, guid: 26a7e004f4278504cb0bd31e8f4f37fd, type: 3}
+    volume: 0.393
+  pickupCollectedFiles:
+  - audioClip: {fileID: 8300000, guid: cd9f6dde19a876649abfdc4825ceb12b, type: 3}
+    volume: 0.635
+  highComboFiles:
+  - audioClip: {fileID: 8300000, guid: 6dfc655e2765f644aa9acfff7d59d2fb, type: 3}
+    volume: 1
+  midComboFiles:
+  - audioClip: {fileID: 8300000, guid: a4b2d131f7afbe440ba3c544f085636c, type: 3}
+    volume: 1
+  lowComboFiles:
+  - audioClip: {fileID: 8300000, guid: bc8c2035ae7b89f4cba28a48baa0be56, type: 3}
+    volume: 1
+  firstPlaceFiles:
+  - audioClip: {fileID: 8300000, guid: c01b66145e85c7049aaadba0f5d1a68a, type: 3}
+    volume: 0.6
+  secondPlaceFiles:
+  - audioClip: {fileID: 8300000, guid: f268870b0c8ea1e468964addfb26fdb6, type: 3}
+    volume: 0.6
+  thirdPlaceFiles:
+  - audioClip: {fileID: 8300000, guid: 72f715899da3d0747a7710c43eaf12d0, type: 3}
+    volume: 0.6
+  roomClearedFiles:
+  - audioClip: {fileID: 8300000, guid: 8b513e79e6c621847bcc2fc9d1bfa047, type: 3}
+    volume: 0.294
+  DoorOpenFiles:
+  - audioClip: {fileID: 8300000, guid: b17aa3d18ae84d44f92ee9fa521297f2, type: 3}
+    volume: 0.17
+  DoorCloseFiles:
+  - audioClip: {fileID: 8300000, guid: 538f8632b1153344aa9d90bc966b85f1, type: 3}
+    volume: 0.369
+  RoomAssemblyFiles:
+  - audioClip: {fileID: 8300000, guid: c4f01fe31e59ec64ea42c28883d49fc7, type: 3}
+    volume: 0.877
+  MenuSelectFiles:
+  - audioClip: {fileID: 8300000, guid: bf8bfcaef089f224fac9a47a9b4dec9f, type: 3}
+    volume: 0.5
+  - audioClip: {fileID: 8300000, guid: c381af101e48db648811a1ef9553aaef, type: 3}
+    volume: 0.5
+  - audioClip: {fileID: 8300000, guid: cc4da040be95f144394f34e47bbe8db8, type: 3}
+    volume: 0.5
+  - audioClip: {fileID: 8300000, guid: 9aa8dfb54491f34419eb421d6597060b, type: 3}
+    volume: 0.5
+  - audioClip: {fileID: 8300000, guid: fcea0893c66f1f84999c520ed1762941, type: 3}
+    volume: 0.5
+  - audioClip: {fileID: 8300000, guid: d3a1561adcbc8f648859945967c79997, type: 3}
+    volume: 0.5

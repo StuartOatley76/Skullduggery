@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &442261198681336271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1594416205568542384}
+  - component: {fileID: 8820153243247439030}
+  m_Layer: 0
+  m_Name: ArcadeStyle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1594416205568542384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442261198681336271}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 723.9, y: 402.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8820153243247439030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442261198681336271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4499d490fcf4a31488e9dee8abd38fd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  floorPieces:
+  - {fileID: 252444971814766800, guid: 49a7995daf79a8544bc481c6f9e54464, type: 3}
+  - {fileID: 3671025234874996378, guid: 7f37b57d6d93fc6498fd318e0783ddfd, type: 3}
+  - {fileID: 1290896280941796250, guid: b42683e11da18294a828ae442f1577c0, type: 3}
+  - {fileID: 4043367167538489804, guid: 884884f2223d86144b454710f988673e, type: 3}
+  - {fileID: 3671025234874996378, guid: b980ce70fcaf2e64d91c801b39357bb2, type: 3}
+  - {fileID: 3671025234874996378, guid: 104f71c391b95174ba8ffe27e4da0b0d, type: 3}
+  - {fileID: 1290896280941796250, guid: 0200c5a7ba67a264584a1440adcd763f, type: 3}
+  - {fileID: 7871132366515001364, guid: 3683510e8babb3649b299b3ed2adefa4, type: 3}
+  - {fileID: 7871132366515001364, guid: 4e558a13b33fee2449f3ee0c2e4e8891, type: 3}
+  - {fileID: 1118446755346109380, guid: d169f595d74253741abd4c38b8cb7d97, type: 3}
+  - {fileID: 1118446755346109380, guid: fca8f29a326f2174bad5e114223f1e5b, type: 3}
+  - {fileID: 8490679594750163968, guid: 3ee723aa47b0e904aae37864c6708ded, type: 3}
+  - {fileID: 6117571978368326732, guid: c91c102963725774b95cfceb8367e77a, type: 3}
+  - {fileID: 4584512511037631440, guid: 7faef24ad81bc6b4aa9bc4700e7199f1, type: 3}
+  - {fileID: 4584512511037631440, guid: e8c7d3c827eea704685b9b7299f22b58, type: 3}
+  - {fileID: 4584512511037631440, guid: f447ff3bb83b8504e848857db24c2bd9, type: 3}
+  - {fileID: 252444971814766800, guid: 0094d7f43bb6d65418fdcb14d4a929dc, type: 3}
+  - {fileID: 252444971814766800, guid: f01a38cc2b3c5c3429792e8d7c119bd0, type: 3}
+  - {fileID: 252444971814766800, guid: adb66b521b0d55547af9031b84c541a4, type: 3}
+  - {fileID: 252444971814766800, guid: 9696b6ffe94e96b4fa91cc6886f8161d, type: 3}
+  - {fileID: 252444971814766800, guid: 7ef2e5bac6053fd45b1c581b8643fbfe, type: 3}
+  - {fileID: 252444971814766800, guid: d08962eac31d17249849f15e0f0e45d5, type: 3}
+  wallPieces:
+  - {fileID: 3474590371566909243, guid: d04896c0cd3ab374fa8682143c00a7c3, type: 3}
+  - {fileID: 1267257484795447349, guid: 9bac0b2722e0c2c4294716d9c48b296f, type: 3}
+  - {fileID: 7468016257266116477, guid: 5ff091f2f6864414b933b346c096cfed, type: 3}
+  - {fileID: 3645592349045937673, guid: 69072083d7af6824c8d09887df72f447, type: 3}
+  - {fileID: 3645592349045937673, guid: 73b8d57f2363aa64b81fc87fa56cded2, type: 3}
+  - {fileID: 1267257484795447349, guid: c3bfa4053badbd2498f7b0c516937a4e, type: 3}
+  - {fileID: 8146163562794662095, guid: c19396486d7473249b310992a66aabae, type: 3}
+  - {fileID: 6845385119930826472, guid: 124d8f6aac54c3147bf70067e51dfa37, type: 3}
+  - {fileID: 3350808875297037210, guid: bca62cc39332f044f81271e56b232577, type: 3}
+  - {fileID: 3350808875297037210, guid: 2632b8012f824cd438483c513e5a8bad, type: 3}
+  - {fileID: 3350808875297037210, guid: f98232b23b151b349b861f7a30c92921, type: 3}
+  - {fileID: 3350808875297037210, guid: 5f9c94a7da59f3047b7fe6df3be72735, type: 3}
+  - {fileID: 3474590371566909243, guid: c9fe07ccf8a833f4f8bfec4b91ca6039, type: 3}
+  - {fileID: 3474590371566909243, guid: 16b8f8a0e2b4cba44a2af8fc5ed7e7c6, type: 3}
+  - {fileID: 3474590371566909243, guid: 0a0403d49523ead49b2b59ec36534921, type: 3}
+  - {fileID: 3474590371566909243, guid: 3c05a2699e6858949a2f7728af7c5567, type: 3}
+  cornerPieces:
+  - {fileID: 8263595244571025130, guid: 32fc1425191ac1c489cc3941bcc1585d, type: 3}
+  - {fileID: 663855238084008869, guid: 3d12dec33eddcc647a23dbf10933d307, type: 3}
+  - {fileID: 8043389668793519655, guid: 7bc80bde07200724d8bed8ca6e98df4e, type: 3}
+  - {fileID: 8604519066517601370, guid: 38b45253dda6a5f429f2e40a3a94da60, type: 3}
+  - {fileID: 1747755919940101197, guid: 76a0eedcdaa1c7842b55927c8f6281e2, type: 3}
+  - {fileID: 8507061290843258037, guid: 0e2920a5e84386647bee2e8bc0ba54cf, type: 3}
+  - {fileID: 8507061290843258037, guid: 9d4ee60e4ca488a43baa4284bfaf8135, type: 3}
+  pillarPieces:
+  - {fileID: 5065698605500711336, guid: c9c7edc604ff6384d9494fed87cd6f96, type: 3}
+  - {fileID: 6287686448927853842, guid: c7295730e8e8a6540b0b3e64227d2de9, type: 3}
+  - {fileID: 6792499903022000863, guid: b488e1223bdc4d34b841842a9620a469, type: 3}
+  - {fileID: 6372915972202317691, guid: 8d6b3f854bd9010448dbfda25c8e154a, type: 3}
+  - {fileID: 9183266847693882741, guid: 2bff7c896ee7a944791411ec29769bc7, type: 3}
+  - {fileID: 2652356770443089307, guid: 166b53c034a5a354ea21c12d3c57c160, type: 3}
+  - {fileID: 7187347644969330828, guid: 7ba761ecdae28754da82f4763629db36, type: 3}
+  doorPieces:
+  - {fileID: 2991240518188555753, guid: a1740ac4187702443ba8b878327f28df, type: 3}
+  - {fileID: 9061160545096186625, guid: df007e7b1afc47246bafe8724c816e7a, type: 3}
+  - {fileID: 6466449427844532136, guid: ed22a27b959beb8478750ae3ef312c7b, type: 3}
+  - {fileID: 7778245051014159513, guid: edc2e12c9a5723e4aaf74e721b2a670c, type: 3}
+  - {fileID: 2962898602897713298, guid: 8dacfcaf507d63f44bb5ac42aa5dddd3, type: 3}
+  cornerDoorLeftPieces:
+  - {fileID: 8263595244571025130, guid: 8c749b12793f18049a8ff25786fdde02, type: 3}
+  cornerDoorRightPieces:
+  - {fileID: 8263595244571025130, guid: fb12d5621114ac34ba0e5cc331446aff, type: 3}
+  innerCornerPieces:
+  - {fileID: 2441814665750115320, guid: 3712010767589834bbe67a81e8382437, type: 3}
+  - {fileID: 2374748553006338147, guid: 1d42ef5080bb04a48aa3e35d8983f81b, type: 3}
+  - {fileID: 620468803699942907, guid: f2856199f194e8b42a270305eebf718c, type: 3}
+  corridorEnds:
+  - {fileID: 3474590371566909243, guid: 51db45d9821086e44af67978352123e1, type: 3}
+  - {fileID: 3474590371566909243, guid: efccf315ef5e18d4f90609990cb54d51, type: 3}
+  - {fileID: 3474590371566909243, guid: 29e699400a52fc14e813fe40e263d75e, type: 3}
+  - {fileID: 3474590371566909243, guid: aa564ffb681a2564b8f18e858e858584, type: 3}
+  - {fileID: 3474590371566909243, guid: b445cc96d154d4943a5c58458b41420b, type: 3}
+  corridorEndDoors:
+  - {fileID: 3474590371566909243, guid: 9d16c32a9bbe84f4fa0c8292eaadf9a8, type: 3}
+  - {fileID: 3474590371566909243, guid: c7dc8a6d98878a747b20a26a2eabe8bc, type: 3}
+  - {fileID: 3474590371566909243, guid: d3e024b7fee2bc646b252e8dae565a4e, type: 3}
+  - {fileID: 3474590371566909243, guid: 2138a5cb4fc825c4786dca9145747e01, type: 3}
+  corridorPieces:
+  - {fileID: 3474590371566909243, guid: 79aacd4af18176e43b3bbfd9bf0f4209, type: 3}
+  - {fileID: 3474590371566909243, guid: e02110b1b83c69547865042bd972c804, type: 3}
+  - {fileID: 3474590371566909243, guid: f6225018a0aaff04293e6361bccbe0f6, type: 3}
+  blockPieces:
+  - {fileID: 1119460302494864993, guid: f09e36d1798555543afc49ecb22b459b, type: 3}
+  bossRoom: {fileID: 6059573362290716524, guid: 19ff56ad513d7c84fb080b3e9a6d065b, type: 3}
+  styleEnemies:
+  - {fileID: 6943877039555661827, guid: a9619e3cec40b1a4bbf02e0d1a7301cf, type: 3}
+  - {fileID: 8174257104512662246, guid: d410ccf074b102c4f8fb0a86968840df, type: 3}
+  - {fileID: 1355587110934404702, guid: 7a125ab8522b03743b809d052fc9ff1b, type: 3}
+  - {fileID: 6105295743626505590, guid: 42a04b8f23a434648bc0ce5bbb856cb2, type: 3}
+  - {fileID: 5381479976090153258, guid: f73468a72e298894c8b5cff323797b5f, type: 3}
+  - {fileID: 7018532250791168211, guid: 6f047da823d297940ae6069ec73223d1, type: 3}
+  - {fileID: 2585861521152001312, guid: 6631709bab244cd4691f7a32b5c2745f, type: 3}
+  boss: {fileID: 7264334825477158012, guid: ff7533900e8c9eb459f801bbc5476ea6, type: 3}
+  powerUpPrefab: {fileID: 6223047908315228697, guid: dd2cd08f7c34a2f4ca2c723ebf6eb2d6, type: 3}
+  trapPrefabs:
+  - {fileID: 3179312527871117171, guid: 69edfb7e023bd294387faff163c120b3, type: 3}
+  wallStandardMat: {fileID: 2100000, guid: 2fa49e2a9183fbe4696a1f3889b46876, type: 2}
+  wallChallangeMat: {fileID: 2100000, guid: d94be1b859c6b794fbd0441bf96f97ed, type: 2}
+  wallBossMat: {fileID: 2100000, guid: 2df3b71faad733640baad19608a1f90f, type: 2}
+  floorStandardMat: {fileID: 2100000, guid: 1df81ada440a1b744b4e2b887261fc0f, type: 2}
+  floorChallangeMat: {fileID: 2100000, guid: cc4b955c65fcdca4ca770455525aa8d5, type: 2}
+  floorBossMat: {fileID: 2100000, guid: 1a3d5b9d47c47fd40ba3a0a6e5dbe28c, type: 2}
+  pillarStandardMat: {fileID: 2100000, guid: 7fa7235098c6277468e0f9a885114936, type: 2}
+  pillarChallangeMat: {fileID: 2100000, guid: efc7d3b5344c88648b35499d88df2775, type: 2}
+  pillarBossMat: {fileID: 2100000, guid: 844d9b9d93ed15c4d9ecd7d23b4cc737, type: 2}
+  clearWeight: 75
+  mainPathDoorMat: {fileID: 2100000, guid: d1ff15d39cde45f42b518b349ac1d848, type: 2}
+  mainPathSignMat: {fileID: 2100000, guid: 4cf01226ed6bbd24fb9db8974b9c84f1, type: 2}
+  challangeRoomDoorMat: {fileID: 2100000, guid: 8e273aec88c340e438fcdce050095478, type: 2}
+  challangeRoomSignMat: {fileID: 2100000, guid: 611926a1287ceef40857a70571268ca5, type: 2}
+  bossRoomDoorMat: {fileID: 2100000, guid: 04d12c6426246c0428a7663c41b07782, type: 2}
+  bossRoomSignMat: {fileID: 2100000, guid: eee44cf94d27b5b49ae15ceefbb67ceb, type: 2}
+  nextLevelDoorMat: {fileID: 0}
+  nextLevelSignMat: {fileID: 0}
